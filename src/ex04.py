@@ -33,7 +33,7 @@ def perimeter(param1, param2):
         float: The perimeter of the rectangle.
     """
     # TODO : complete this
-    pass
+    return param1+param2+param1+param2
 
 
 def volume(param1, param2, param3):
@@ -49,7 +49,7 @@ def volume(param1, param2, param3):
         float: The volume of the object.
     """
     # TODO : complete this
-    pass
+    return param1*param2*param3
 
 
 def surface_area(param1, param2, param3):
@@ -65,4 +65,4 @@ def surface_area(param1, param2, param3):
         float: The total surface area of the rectangular prism.
     """
     # TODO : complete this
-    pass
+    return 2*(param1*param2)+2*(param2*param3)+2*(param1*param3)
