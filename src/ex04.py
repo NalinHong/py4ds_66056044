@@ -1,7 +1,10 @@
 """
 Execise 4
 """
-
+#1. area = L x W
+#2. perimeter = L+W + L+W
+#3. volume = L x W x H
+#4. surface area = 2 x (L x W) + 2 x (W x H) + 2 x (L x H)
 
 def area(param1, param2):
     """
@@ -15,10 +18,10 @@ def area(param1, param2):
         float: The area of the rectangle.
     """
     # TODO : complete this
-    pass
+    return param1*param2
 
 
-def perimetero(param1, param2):
+def perimeter(param1, param2):
     """
     Calculate the perimeter of a rectangle.
 
