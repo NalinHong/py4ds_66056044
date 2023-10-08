@@ -14,9 +14,8 @@ def convert_to_fahrenheit(celsius):
         float: The temperature in Fahrenheit.
     """
     # TODO : complete this
-    Celsius=0
-    Fahrenheit = (9/5) * Celsius + 32
-    print('Farenheit')
+    return (9/5) * celsius + 32
+
 
     pass
 
